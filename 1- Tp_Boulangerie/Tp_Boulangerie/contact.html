@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="topbar">
+            <!--Deux partie le logo a gauche et les liens a droites -->
+            <div class="logo">
+                <a href=""></a>
+            </div>
+            <nav class="menu">
+                <a href="boulangerie.html" class="menu-item ">Boulangerie<a>
+                        <a href="said_patisserie.html" class="menu-item">pâtisserie<a>
+                                <a href="anissa_jeggi_chocalerie.html" class="menu-item">chocolaterie<a>
+                                        <a href="Tp_boulangerie_el_jegoss.html" class="menu-item active">contact<a>
+            </nav>
+        </div>
+        <div class="baseline">
+            <span class="baseline-welcome">Welcome</span>
+            <strong class="baseline-name">El Jeggos</strong>
+            <span class="baseline-slogan">specialite du maghreb</span>
+        </div>
+    </header>
+
+
+
+
+    <form action="#" id="form">
+
+        <label for="nom">Nom</label>
+        <input type="text" placeholder="nom" id="nom" name="nom">
+        <p id="faute_nom1">Erreur : </p>
+        <p id="faute_nom2">Erreur : </p>
+        <p id="faute_nom3">Erreur : </p>
+
+
+
+
+        <label for="prenom">Prénom</label>
+        <input type="text" placeholder="Prénom" id="prenom" name="prenom">
+
+        <p id="faute_prenom1">Erreur :</p>
+        <p id="faute_prenom2">Erreur : </p>
+        <p id="faute_prenom3">Erreur : </p>
+
+
+        <label for="email">Adresse mail</label>
+        <input type="email" placeholder="user@hotmail.com" id="email" name="email">
+
+        <p id="faute_email1">Erreur : </p>
+        <p id="faute_email2">Erreur : </p>
+        <p id="faute_email3">Erreur : </p>
+        <p id="faute_email4">Erreur : </p>
+
+
+
+
+        <label for="telephone">Numéro de téléphone</label>
+        <input type="text" placeholder="+33" id="telephone" name="telephone">
+
+        <p id="faute_telephone1">Erreur : </p>
+        <p id="faute_telephone2">Erreur : </p>
+        <p id="faute_telephone3">Erreur : </p>
+
+
+        <label for="titre">Titre</label>
+        <input type="text" placeholder="Titre" id="titre" name="telephone">
+
+        <p id="faute_titre1">Erreur : </p>
+        <p id="faute_titre2">Erreur : </p>
+        <p id="faute_titre3">Erreur : </p>
+
+
+        <label for="message">Message</label>
+        <textarea type="textarea" name="messsage" id="message" class="inputext" cols="100" rows="10"
+            placeholder="Votre Message ..."></textarea>
+
+        <p id="faute_message1">Erreur : </p>
+        <p id="faute_message2">Erreur : </p>
+        <p id="faute_message3">Erreur : </p>
+
+
+        <input type="submit" value="Envoyer">
+    </form>
+
+    <!-- 
+    <input type="text" id="nom"> <!-- detecte si la valeur change slectionner mon elems avec un id car plus rapide 
+    <input type="text" id="premnom">
+    <input type="text" id="email">
+    <input type="text" id="telephone">
+    <input type="text" id="titre">
+    <input type="text" id="message"> -->
+
+
+    <script src="contact.js"></script>
+</body>
+
+</html>
